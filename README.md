@@ -1,4 +1,4 @@
-![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/05d7440a-30b1-4b39-8b14-de5a51533241)# monitoringtool/api
+# Monitoringtool/api with new relics in Golang
 MELTs Integration for better management &amp; insights on the errors
 
 ## Description
@@ -22,9 +22,10 @@ This project aims to integrate MELTs (Metrics, Events, Logs, Trace) with New Rel
 2. Configure your New Relic API key and other settings in the utils/constants file.
 3. Run the project
     ```bash
-    go run main.go
+    go run main.go  
+4. VsCode configuration already added for local debugging.
 
-## Usage Screenshots
+## Reference Screenshots
 **API Supported**
 Description: This screenshot shows the list of APIs supported by the integration with New Relic.
 
@@ -37,10 +38,11 @@ Description: This screenshot shows the list of APIs supported by the integration
     ![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/d23f4e44-7190-4173-850e-c52d23c9594b)
 
     b. **Response Received with Custom Data Points:**
-    ![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/782b8fd2-7f73-45d6-9a33-9f7c9dc8c37f)
+   ![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/02f23cb5-f703-44b0-a032-0ee48acde057)
 
     c. **Stats on New Relic's UI:**
-    ![5](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/e0561999-f814-41b5-897c-feb9d55bc2cc)
+    ![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/8eac7c41-3c27-4225-972a-d6cd73d78382)
+
 
    
 2. **`/uploadMetric`**
