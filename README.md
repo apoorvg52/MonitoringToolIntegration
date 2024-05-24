@@ -23,10 +23,14 @@ This project aims to integrate MELTs (Metrics, Events, Logs, Trace) with New Rel
 3. Run the project
     ```bash
     go run main.go  
-4. VsCode configuration already added for local debugging.
+4. Local debugging configuration for VSCode has been preconfigured. Simply navigate to the "Run & Debug" section.
 
+5. Initiate the project in debug mode by selecting "Launch Project".
+
+   
 ## Reference Screenshots
 **API Supported**
+
 Description: This screenshot shows the list of APIs supported by the integration with New Relic.
 
 
@@ -38,13 +42,16 @@ Description: This screenshot shows the list of APIs supported by the integration
     ![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/d23f4e44-7190-4173-850e-c52d23c9594b)
 
     b. **Response Received with Custom Data Points:**
+    
    ![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/02f23cb5-f703-44b0-a032-0ee48acde057)
 
     c. **Stats on New Relic's UI:**
-    ![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/8eac7c41-3c27-4225-972a-d6cd73d78382)
+![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/375e9661-ba73-413e-b4fa-f2fe2c6abba6)
+    
+    
 
 
-   
+
 2. **`/uploadMetric`**
    Description: This API endpoint is used to upload metrics data to New Relic.
    http://localhost:8080/uploadMetric
@@ -61,7 +68,7 @@ Description: This screenshot shows the list of APIs supported by the integration
 
 
    
-4. **`/uploadLogs`**
+3. **`/uploadLogs`**
    Description: This API endpoint is employed to upload log data to New Relic for analysis and monitoring.
    http://localhost:8080/uploadLogs
 
@@ -75,7 +82,7 @@ Description: This screenshot shows the list of APIs supported by the integration
    ![5 logs   metrics](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/ccad0f4c-215f-44b2-be02-38734d30ba78)
 
 
-6. **`/uploadTrace`**
+4. **`/uploadTrace`**
    Description: This API endpoint facilitates the uploading of trace data to New Relic for performance monitoring and analysis.
    http://localhost:8080/uploadTrace
 
