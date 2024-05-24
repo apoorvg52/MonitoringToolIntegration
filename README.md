@@ -1,4 +1,4 @@
-# Monitoringtool/api with new relics in Golang
+# RelicGo: Golang API Monitoring Tool with New Relic Integration"
 MELTs Integration for better management &amp; insights on the errors
 
 ## Description
@@ -36,13 +36,13 @@ Description: This screenshot shows the list of APIs supported by the integration
 
 1.**`/uploadEvents`**
    Description: This endpoint handles the upload of custom event data to New Relic. This endpoint accepts a JSON file as input and compresses it to gzip format before sending it to New Relic's server for further processing and analysis.
-   http://localhost:8080/uploadEvents
+   http://localhost:8080/uploadEvents.
+   
     a. **Request from Postman:**
     ![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/b46b1057-490d-4951-9b8c-a03859d80920)
     ![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/d23f4e44-7190-4173-850e-c52d23c9594b)
 
     b. **Response Received with Custom Data Points:**
-    
    ![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/02f23cb5-f703-44b0-a032-0ee48acde057)
 
     c. **Stats on New Relic's UI:**
