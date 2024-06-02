@@ -10,7 +10,8 @@ import (
 )
 
 const (
-	NEW_RELIC_API_KEY    = "YOUR_NEW_RELIC_API_KEY"
+	// NEW_RELIC_API_KEY    = "YOUR_NEW_RELIC_API_KEY"
+	NEW_RELIC_API_KEY    = "eu01xx889db64394229f7f835a639368249aNRAL"
 	METRICS_URL = "https://metric-api.eu.newrelic.com/metric/v1"
 	LOGS_URL = "https://log-api.eu.newrelic.com/log/v1"
 	TRACE_URL = "https://trace-api.eu.newrelic.com/trace/v1"
