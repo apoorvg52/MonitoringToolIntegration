@@ -1,4 +1,4 @@
-# RelicGo: Golang API Monitoring Tool with New Relic Integration"
+# RelicGo: Golang API Monitoring Tool with New Relic Integration
 MELTs Integration for better management &amp; insights on the errors
 
 ## Description
