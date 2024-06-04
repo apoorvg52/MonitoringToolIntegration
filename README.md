@@ -4,6 +4,11 @@ MELTs Integration for better management &amp; insights on the errors
 ## Description
 This project aims to integrate MELTs (Metrics, Events, Logs, Trace) with New Relic's APIs to provide better management and insights into errors and system performance. It can be easily use by any company to send the data to new relics server.
 
+## Architecture
+Companies can leverage this tool to use as a microservice to post the Metrics, Events, Logs, and Trace to New Relics servers.
+![image](https://github.com/apoorvg52/MonitoringToolIntegration/assets/61585615/32a630d5-cf00-487f-a76b-852487172635)
+
+
 ## Features
 - Integration with New Relic's Metrics API to track system metrics such as CPU usage, memory usage, and network traffic.
 - Integration with New Relic's Events API to log custom events, such as user actions or system events.
